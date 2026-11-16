@@ -1,0 +1,7 @@
+{
+  "task_id": "api-sync-v1",
+  "suite_version": "1.0.0-historical",
+  "status": "historical baseline",
+  "origin": "Preserves the historical API-to-SQLite coding task from local-agent-engine/benchmarks/api_sync/spec.md.",
+  "caveat": "Historical v1 scores are tied to the old task and its test gap. They are not production-readiness evidence or comparable to v2."
+}

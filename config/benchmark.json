@@ -1,0 +1,20 @@
+{
+  "ollama_url": "http://127.0.0.1:11434",
+  "models_csv": "models.csv",
+  "tasks": ["api-sync-v1", "api-sync-v2"],
+  "output_dir": "artifacts/runs",
+  "resource_sample_seconds": 10,
+  "public_test_timeout_seconds": 300,
+  "final_test_timeout_seconds": 300,
+  "model_call_timeout_seconds": 900,
+  "max_repairs": 2,
+  "min_available_ram_gib": 3.0,
+  "min_free_disk_gib": 10.0,
+  "temperature": 0,
+  "seed": 42,
+  "num_ctx": 8192,
+  "num_predict": 4096,
+  "keep_alive": "5m",
+  "think": false,
+  "allow_host_execution": false
+}

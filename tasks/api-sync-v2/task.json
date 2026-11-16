@@ -1,0 +1,6 @@
+{
+  "task_id": "api-sync-v2",
+  "suite_version": "2.0.0",
+  "status": "current integration suite",
+  "origin": "Extends api-sync-v1 with checks that exercise the real CLI-to-fetch path and transport lifecycle."
+}

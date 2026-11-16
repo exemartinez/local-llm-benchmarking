@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "captured_at_utc": "2026-01-01T12:00:00Z",
+  "platform": "Windows",
+  "os": {"caption": "Windows 11 Example", "version": "example", "build": "example", "architecture": "64-bit", "windows_11_supported": true},
+  "cpu": {"name": "Example CPU", "logical_processors": 16, "cores": 8, "utilization_percent": "unknown"},
+  "memory": {"installed_mib": 32768, "available_mib": 16000, "monitoring": "CIM Win32_OperatingSystem.FreePhysicalMemory"},
+  "disks": [{"size_gib": 1000, "free_gib": 500}],
+  "gpus": [{"name": "Example GPU", "vram_mib": 8192, "vram_used_mib": "unknown", "utilization_percent": "unknown", "driver_version": "example", "vram_source": "sample data"}],
+  "monitoring_capabilities": {"get_counter_available_memory": true, "nvidia_smi": false, "vram_measurement": "sample data"},
+  "privacy": "Example values only. No real machine identifiers or measurements."
+}
